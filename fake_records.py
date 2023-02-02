@@ -2,11 +2,11 @@
 # of 1000 records with the following
 # fields: First Name, Last Name, Birthday, Email, and Phone Number
 
-import faker
+from faker import Faker
 import pandas as pd
 import numpy as np
 
-fake = faker()
+fake = Faker()
 
 
 def generate():

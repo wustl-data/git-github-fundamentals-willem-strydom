@@ -1,6 +1,4 @@
-# Write a function generate in your new fake_records module that generates a DataFrame
-# of 1000 records with the following
-# fields: First Name, Last Name, Birthday, Email, and Phone Number
+
 
 from faker import Faker
 import pandas as pd
